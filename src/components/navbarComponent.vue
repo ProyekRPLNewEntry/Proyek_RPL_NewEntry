@@ -1,6 +1,8 @@
 <template>
   <div style="margin-bottom: 45px" :class="{ open: isDropdownOpen }">
-    <nav class="fixed-button-admin navbar navbar-expand-lg custom-bg-color-navbar">
+    <nav
+      class="fixed-button-admin navbar navbar-expand-lg custom-bg-color-navbar"
+    >
       <div class="container-fluid custom-bg-color">
         <router-link class="navbar-brand d-flex align-items-center" to="/">
           <img
@@ -85,7 +87,7 @@
           </ul>
           <div class="d-flex align-items-center" v-if="isDesktop">
             <img
-              src="D:/Proyek_NewEntry-master/src/assets/User Male.png"
+              src="../assets/User Male.png"
               alt="User Avatar"
               width="35"
               height="35"
@@ -128,7 +130,7 @@ export default {
   data() {
     return {
       isDesktop: true,
-      isDropdownOpen: false
+      isDropdownOpen: false,
     };
   },
   mounted() {
@@ -152,11 +154,11 @@ export default {
     },
     isActive(route) {
       return this.$route.path === route;
-    }
+    },
   },
   beforeDestroy() {
     window.removeEventListener("resize", this.checkScreenSize);
-  }
+  },
 };
 </script>
 
@@ -184,7 +186,7 @@ export default {
 
 .dropdown-menu .dropdown-item.active {
   background-color: rgba(42, 170, 148, 0.2);
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
 }
 
 .navbar-nav > li > .dropdown-menu {
