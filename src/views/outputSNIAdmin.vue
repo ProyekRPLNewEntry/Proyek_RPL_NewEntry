@@ -17,7 +17,7 @@ export default {
           <img
             width="80"
             height="80"
-            src="D:\Proyek_NewEntry-master\src\assets\User Male.png"
+            src="../assets/User Male.png"
             alt="..."
           />
         </div>
