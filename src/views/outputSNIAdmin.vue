@@ -10,32 +10,98 @@ export default {
 
 <template>
   <navbarPage />
-  <a
-    href="/outputmenu"
-    class="title-page text-decoration-none"
-    style="padding-left: 100px; padding-right: 100px; margin-top: 66px"
-  >
-    <div class="card mb-3 custom-card">
-      <div class="container-dashboard">
-        <div class="col-md-1">
-          <img width="80" height="80" src="../assets/User Male.png" alt="..." />
-        </div>
-        <div class="col">
-          <h5 class="card-title">Richal Akbar</h5>
-          <p class="margin-top-dashboard card-text">Teknik</p>
-          <p class="card-text">
-            <small class="text-body-secondary">Teknik Informatika</small>
-          </p>
-        </div>
-        <div>
-          <p class="card-text text-end">2024</p>
-        </div>
+  <div style="margin-top: 80px">
+    <div class="row justify-content-center">
+      <div class="col-md-11">
+        <a href="/outputmenu" class="title-page text-decoration-none">
+          <div class="card custom-card">
+            <div class="container-dashboard">
+              <div style="margin-right: 15px; margin-left: 12px">
+                <img
+                  width="70"
+                  height="70"
+                  src="../assets/User Male.png"
+                  alt="..."
+                  class="rounded-image"
+                />
+              </div>
+              <div class="row">
+                <h5 style="margin-top: 10px" class="card-title">
+                  Richal Akbar
+                </h5>
+                <p style="margin-top: -10px">Teknik</p>
+                <p style="margin-bottom: 10px">
+                  <small class="text-body-secondary">Teknik Informatika</small>
+                </p>
+              </div>
+              <div class="year">
+                <p style="margin-right: 12px" class="card-text">2024</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
-  </a>
-  <a href="/" class="button-wrapper-outputmenu" style="margin-bottom: 5ch">
-    <button class="btn-dashboard btn-primary border-btn" type="submit">
-      Kembali
-    </button>
+  </div>
+  <a style="margin-top: 15px;" href="/" class="button-wrapper-outputmenu">
+    <button class="btn-dashboard btn-primary border-btn" type="submit">Kembali</button>
   </a>
 </template>
+
+<style>
+.rounded-image {
+  border-radius: 50%;
+}
+
+.custom-card {
+  background-color: rgba(42, 170, 148, 0.2);
+}
+
+.container-dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.row {
+  flex-grow: 1;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.btn-dashboard {
+  background-color: #2aaa94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn-dashboard:hover {
+  background-color: #268e7d;
+  border-color: #2aaa94;
+}
+
+.btn-dashboard:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
+}
+
+.button-wrapper-outputmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+</style>
