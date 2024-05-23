@@ -33,12 +33,20 @@ const routes = [
     component: () => import("@/views/outputSNIAdmin.vue"),
   },
   {
-    path: "/input",
-    component: () => import("@/views/inputUser.vue"),
+    path: "/inputnu",
+    component: () => import("@/views/inputUserNU.vue"),
   },
   {
-    path: "/outputmenu",
-    component: () => import("@/views/outputMenu.vue"),
+    path: "/outputmenuwcu",
+    component: () => import("@/views/outputMenuWCU.vue"),
+  },
+  {
+    path: "/outputmenusni",
+    component: () => import("@/views/outputMenuSNI.vue"),
+  },
+  {
+    path: "/outputmenunu",
+    component: () => import("@/views/outputMenuNU.vue"),
   },
   {
     path: "/output",

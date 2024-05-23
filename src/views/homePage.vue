@@ -50,7 +50,7 @@ export default {
               bulk of the card's content.
             </p>
             <a
-              href="/input"
+              href="/inputnu"
               class="btn-home border-btn btn-primary button-wrapper-outputmenu text-decoration-none"
               >NU Greenmetric</a
             >

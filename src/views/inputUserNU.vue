@@ -132,10 +132,10 @@ export default {
     </div>
 
     <div style="margin-bottom: 50px; text-align: center">
-      <a href="/outputmenu" style="margin-bottom: 10px; margin-right: 10px">
+      <a href="/outputmenunu" style="margin-bottom: 10px; margin-right: 10px">
         <button class="btn btn-kirim" type="submit">Kirim</button>
       </a>
-      <a href="/outputmenu" style="margin-bottom: 10px; margin-right: 10px">
+      <a href="/outputmenunu" style="margin-bottom: 10px; margin-right: 10px">
         <button class="btn btn-success btn-lihat" type="submit">Lihat</button>
       </a>
       <a href="#" style="margin-bottom: 10px">
