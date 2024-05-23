@@ -13,7 +13,7 @@ export default {
   <div style="margin-top: 80px">
     <div class="row justify-content-center">
       <div class="col-md-11">
-        <a href="/outputmenu" class="title-page text-decoration-none">
+        <a href="/outputmenuwcu" class="title-page text-decoration-none">
           <div class="card custom-card">
             <div class="container-dashboard">
               <div style="margin-right: 15px; margin-left: 12px">
@@ -55,6 +55,15 @@ export default {
 
 .custom-card {
   background-color: rgba(42, 170, 148, 0.2);
+  transition: background-color 0.3s ease; 
+}
+
+.custom-card:hover {
+  background-color: rgba(42, 170, 148, 0.5); 
+}
+
+.custom-card:active {
+  background-color: rgba(42, 170, 148, 0.8); 
 }
 
 .container-dashboard {

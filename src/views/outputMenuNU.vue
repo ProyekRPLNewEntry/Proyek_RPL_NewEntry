@@ -43,6 +43,15 @@ export default {
 
 .custom-card {
   background-color: rgba(42, 170, 148, 0.2);
+  transition: background-color 0.3s ease; 
+}
+
+.custom-card:hover {
+  background-color: rgba(42, 170, 148, 0.5); 
+}
+
+.custom-card:active {
+  background-color: rgba(42, 170, 148, 0.8); 
 }
 
 .container-dashboard {
