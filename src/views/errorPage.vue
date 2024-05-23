@@ -12,3 +12,13 @@ export default {
   name: "errorPage",
 };
 </script>
+
+<style>
+.margin-error {
+  margin-top: 15em;
+}
+
+.error-color {
+  color: #2aaa94;
+}
+</style>

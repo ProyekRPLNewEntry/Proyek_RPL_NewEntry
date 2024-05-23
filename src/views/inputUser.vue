@@ -192,4 +192,13 @@ export default {
   width: 5%;
   justify-content: center;
 }
+
+.page-link {
+  color: #2aaa94;
+}
+
+.page-link:hover {
+  background-color: #2aaa94;
+  color: white;
+}
 </style>

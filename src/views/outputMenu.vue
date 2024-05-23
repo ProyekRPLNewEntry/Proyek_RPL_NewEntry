@@ -31,7 +31,89 @@ export default {
     </a>
   </main>
 
-  <a href="/" class="button-wrapper-outputmenu">
+  <a style="margin-top: 25px;" href="/" class="button-wrapper-outputmenu">
     <button class="btn-dashboard btn-primary border-btn" type="submit">Kembali</button>
   </a>
 </template>
+
+<style>
+.rounded-image {
+  border-radius: 50%;
+}
+
+.custom-card {
+  background-color: rgba(42, 170, 148, 0.2);
+}
+
+.container-dashboard {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.btn-dashboard {
+  background-color: #2aaa94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn-dashboard:hover {
+  background-color: #268e7d;
+  border-color: #2aaa94;
+}
+
+.btn-dashboard:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
+}
+
+.custom-card-outputmenu {
+  background-color: rgba(42, 170, 148, 0.2);
+}
+
+.container-outputmenu {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+
+.margin-top-outputmenu {
+  margin-top: -10px;
+}
+
+.button-wrapper-outputmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn-outputmenu {
+  background-color: #2aaa94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn-outputmenu:hover {
+  background-color: #268e7d;
+  border-color: #2aaa94;
+}
+</style>
