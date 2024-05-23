@@ -12,15 +12,19 @@ export default {
   <div>
     <navbarPage />
     <body>
-      <h1 style="margin-top: 66px" class="title-page fw-bold text-center">
-        Sistem <span>Pemeringkatan</span>
-      </h1>
-      <p class="paragrah-page text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore veniam...
-      </p>
-
-      <div class="card-container d-flex justify-content-center flex-wrap">
+      <div style="margin-bottom: -10px;">
+        <h1 style="margin-top: 66px" class="title-page fw-bold text-center">
+          Sistem <span>Pemeringkatan</span>
+        </h1>
+        <p class="paragrah-page text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore veniam...
+        </p>
+      </div>
+      <div
+        style="margin-bottom: 33px"
+        class="card-container d-flex justify-content-center flex-wrap"
+      >
         <div class="card" style="width: 18rem">
           <img src="../assets/WCN (QS/WCN.png" class="card-img-top" alt="..." />
           <div class="card-body">
