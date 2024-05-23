@@ -197,6 +197,64 @@ export default {
   padding: 20px;
 }
 
+.container-admin-user {
+  display: flex;
+}
+
+.custom-nav-admin {
+  width: 250px;
+}
+
+.content-admin-user {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.col-no {
+  width: 50px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #edfdfa;
+  text-align: left;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-button {
+  margin-left: 10px;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+}
+
+.form-check-input {
+  background-color: #f2f2f2;
+  width: 20px;
+  height: 20px;
+  margin: center;
+  border: 2px solid #d0cece;
+  border-radius: 5px;
+}
+
 .table {
   width: 100%;
   margin-bottom: 20px;

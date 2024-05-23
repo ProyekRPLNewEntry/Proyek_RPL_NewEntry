@@ -39,7 +39,7 @@ export default {
 <style>
 .custom-nav-admin {
   background-color: #f6f9f8;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 28em;
 }
 

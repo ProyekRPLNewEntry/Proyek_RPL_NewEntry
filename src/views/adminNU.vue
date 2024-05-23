@@ -90,4 +90,8 @@ export default {
 td {
   vertical-align: middle;
 }
+
+.col-no {
+  width: 50px;
+}
 </style>

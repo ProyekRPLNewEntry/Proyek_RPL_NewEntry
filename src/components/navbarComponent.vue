@@ -110,7 +110,7 @@
           <div class="border-btn" v-if="isDesktop">
             <router-link
               to="/login"
-              class="button-wrapper-outputmenu"
+              class="button-wrapper-outputmenu text-decoration-none"
               style="display: flex; align-items: center"
             >
               <button type="button" class="border-btn btn-navbar btn-primary">
@@ -163,6 +163,50 @@ export default {
 </script>
 
 <style scoped>
+.fixed-button-admin {
+  position: fixed;
+  margin-bottom: 100ch;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.btn-navbar {
+  background-color: #2aaa94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn-navbar:hover {
+  background-color: #268e7d;
+  border-color: #2aaa94;
+}
+
+.btn-navbar:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
+}
+
+.custom-bg-color-navbar {
+  background-color: #edfdfa;
+}
+
+.nav-linkk[aria-current="page"] {
+  font-weight: bold;
+}
+
+.nav-linkk.active {
+  font-weight: bold;
+}
+
 .custom-bg-color-navbar {
   background-color: hsl(169, 80%, 96%);
 }
