@@ -70,6 +70,10 @@ const routes = [
     path: "/sni",
     component: () => import("@/views/adminSNI.vue"),
   },
+  {
+    path: "/create",
+    component: () => import("@/views/Create.vue"),
+  },
 ];
 
 const router = createRouter({

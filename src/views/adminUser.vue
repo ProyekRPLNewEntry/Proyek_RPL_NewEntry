@@ -22,42 +22,27 @@
           <tbody>
             <tr v-for="(user, index) in users" :key="index">
               <th class="text-center th-middle" scope="row">{{ index + 1 }}</th>
-              <td
-                v-if="!user.isNew && !user.isEditing"
-                class="text-left td-middle"
-              >
+              <td v-if="!user.isNew && !user.isEditing" class="text-left td-middle">
                 {{ user.name }}
               </td>
               <td v-else><input v-model="user.name" class="table-input" /></td>
-              <td
-                v-if="!user.isNew && !user.isEditing"
-                class="text-left td-middle"
-              >
+              <td v-if="!user.isNew && !user.isEditing" class="text-left td-middle">
                 {{ user.fakultas }}
               </td>
               <td v-else>
                 <input v-model="user.fakultas" class="table-input" />
               </td>
-              <td
-                v-if="!user.isNew && !user.isEditing"
-                class="text-left td-middle"
-              >
+              <td v-if="!user.isNew && !user.isEditing" class="text-left td-middle">
                 {{ user.prodi }}
               </td>
               <td v-else><input v-model="user.prodi" class="table-input" /></td>
-              <td
-                v-if="!user.isNew && !user.isEditing"
-                class="text-left td-middle"
-              >
+              <td v-if="!user.isNew && !user.isEditing" class="text-left td-middle">
                 {{ user.username }}
               </td>
               <td v-else>
                 <input v-model="user.username" class="table-input" />
               </td>
-              <td
-                v-if="!user.isNew && !user.isEditing"
-                class="text-left td-middle"
-              >
+              <td v-if="!user.isNew && !user.isEditing" class="text-left td-middle">
                 {{ user.password }}
               </td>
               <td v-else>
@@ -105,9 +90,11 @@
           </tbody>
         </table>
         <div>
-          <button @click="addNewRow" class="action-btn add-new-btn">
-            Tambah User
-          </button>
+          <router-link to="/create">
+            <button class="action-btn add-new-btn">
+              Tambah User
+            </button>
+          </router-link>
         </div>
       </div>
     </main>
@@ -160,15 +147,7 @@ export default {
   },
   methods: {
     addNewRow() {
-      this.users.push({
-        name: "",
-        fakultas: "",
-        prodi: "",
-        username: "",
-        password: "",
-        isNew: true,
-        isEditing: false,
-      });
+      // Metode ini sekarang dinonaktifkan dan tidak akan dipanggil
     },
     addUser(index) {
       this.users[index].isNew = false;
@@ -345,6 +324,6 @@ export default {
 }
 
 .action-column {
-  width: 20ch; /* Adjusted to fit the buttons */
+  width: 20ch; 
 }
 </style>
